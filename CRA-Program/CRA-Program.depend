@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1531112054 source:/home/travis/Desktop/Projects/CRA-Program/CRAMain.cpp
+	<cstring>
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<limits>
+	<SFML/Graphics.hpp>
+
