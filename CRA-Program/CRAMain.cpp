@@ -6,41 +6,51 @@
 
 using namespace std;
 
-
-string objDumpCommand(string fp) //returns the objdump command and outputs to a file in the parent directory
+string locateDir() //locates the CRA-Program directory and returns it for use in the other methods
 {
-    string outfile; outfile.append(fp); outfile.replace(outfile.find(".", outfile.length()-6), outfile.length() ,"-dsmbl.txt"); //appends -dsmbl.txt to the name of the file given
-    string command = "objdump -d -M intel "; command.append(fp); command.append(" >> "); command.append(outfile); //creates the objdump command string to be passed to system() and output to file
+    string dirPath(256, '\0');
+    system("sudo find $HOME | grep SummerResearch2018/CRA-Program > deleteThis.txt"); //locates all filepaths that include the CRA-Program directory and outputs to a file to read from later
+    fstream f("deleteThis.txt", ios::in | ios::app); //file stream to read from deleteThis.txt
+    if(f.is_open()) //this if statement confirms that the file is created, reads the filepath of the CRA-Program directory, then deletes the file used to read from
+    {
+        getline(f, dirPath); //the first line of the grep command is the filepath for the CRA-Program directory - all other results can be ignored
+        string deleteFile(dirPath); deleteFile.append("/deleteThis.txt"); //full path of deleteThis.txt to allow for call to remove()
+        remove(deleteFile.c_str()); //requires a const_ char*, which is returned by c_str()
+    }
+    return dirPath;
+}
+
+string askFile(string path) //asks for a relative filepath to an object file to be disassembled
+{
+    cout << "Enter the relative filepath for the object file (.obj, .o) to be disassembled. (Must be within the CRA-Program directory or any subdirectories)\n" << path << std::flush;
+    char fp[40]; cin.getline(fp, 40, '\n'); path.append(fp); //takes in the rest of the filepath to the object file from the user
+    return path; //gives filepath
+}
+
+string objDumpCommand(string fp) //outputs disassembly to a file in the parent directory and returns the objdump command
+{
+    string outfile(fp); outfile.replace(outfile.find(".", outfile.length()-6), outfile.length() ,"-dsmbl.txt"); //appends -dsmbl.txt to the name of the file given
+    string command = "objdump -d -M intel "; command.append(fp); command.append(" > "); command.append(outfile); //creates the objdump command string to be passed to system() and output to file
     cout << "Attempting to output disassembly to output file within the parent directory of selected file. Output file name: " << outfile << endl; //giving user acknowledgement of input
     return command;
 }
 
-string askFile() //asks for a filepath to an object file to be disassembled
+void findLEA(string path) //asks for a file to be read and outputs memory addresses of LEA commands to terminal
 {
-    cout << "Enter the complete filepath for the object file (.obj, .o) to be disassembled. (Must be shorter than 75 characters, including spaces)" << "\n/home/travis/Desktop/Projects/" << std::flush;
-    char buffer[75] = "/home/travis/Desktop/Projects/"; //limits filepath to 75 characters, including spaces - set up to include the Projects directory to save time - 30 characters long
-    char fp[44]; cin.getline(fp, 44, '\n'); strcat(buffer, fp); //ensures only 75 total characters are stored in buffer, concats filepath to Projects directory - leaves room for '\0' byte
-    return buffer; //gives filepath
-}
-
-void findLEA() //asks for a file to be read and outputs memory addresses of LEA commands to terminal
-{
-    char buffer[75] = "/home/travis/Desktop/Projects/";
-    cout << "Input a filepath for the file you want to open, starting from the Projects directory:" << endl;
-    char fp[44]; cin.getline(fp, 44, '\n');
-    strcat(buffer, fp);
-    fstream f((string)buffer, ios::in | ios::app);
-    string command(64, ' ');
-    cout << "Full filepath for file to read from is: " << buffer << endl;
-    f.is_open() ? cout << "File has been opened." << endl : cout << "File failed to open." << endl;
+    cout << "Input a filepath for the file you want to open, starting from the CRA-Program directory:\n" << path << std::flush;
+    char fp[44]; cin.getline(fp, 44, '\n'); path.append(fp);
+    fstream f(path, ios::in | ios::app);
+    string instr(64, ' ');
+    //cout << "Full filepath for file to read from is: " << path << endl;
+    //f.is_open() ? cout << "File has been opened." << endl : cout << "File failed to open." << endl;
     int ind;
     while(!f.eof())
     {
-        getline(f, command);
-        ind = command.find("lea",0,3);
+        getline(f, instr);
+        ind = instr.find("lea",0,3);
         if(ind != (signed)string::npos) //not sure why warning for signed comparison is necessary here but not next line vvvvvv (already converted to unsigned when assigned to int?)
-            if(command.substr(ind, command.length()).find("ve", ind, 2) == string::npos)
-                cout << "Found LEA command:     " << command << endl;
+            if(instr.find("leave",0,5) == string::npos)
+                cout << "Found LEA instruction:     " << instr << endl;
     }
     flush(cout);
     f.close();
@@ -48,8 +58,9 @@ void findLEA() //asks for a file to be read and outputs memory addresses of LEA 
 
 int main()
 {
-    system(objDumpCommand(askFile()).c_str());
-    findLEA(); //not working
+    //system() requires a const_ char*, which is returned by c_str() - objDumpCommand() returns the prepared objdump linux command
+    system(objDumpCommand(askFile(locateDir())).c_str()); //locateDir() is called first and outputs to askFile(), then askFile accepts user input and outputs to objDumpCommand
+    findLEA(locateDir()); //not working
     //cout << "Press 'R' to rerun the program." << endl;
     //char input; cin.get(input); if(input == 'r'){ flush(cout); main();} //intended to rerun the program from the start using recursion. does not work.
     cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //pauses terminal before it closes
