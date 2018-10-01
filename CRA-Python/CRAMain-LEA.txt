@@ -1,0 +1,174 @@
+Found LEA instruction:   lea    rax,[rbp-0x251]
+
+Found LEA instruction:   lea    rdx,[rbp-0x251]
+
+Found LEA instruction:   lea    rax,[rbp-0x251]
+
+Found LEA instruction:   lea    rax,[rbp-0x230]
+
+Found LEA instruction:   lea    rax,[rbp-0x230]
+
+Found LEA instruction:   lea    rax,[rbp-0x230]
+
+Found LEA instruction:   lea    rax,[rbp-0x250]
+
+Found LEA instruction:   lea    rax,[rbp-0x250]
+
+Found LEA instruction:   lea    rax,[rbp-0x250]
+
+Found LEA instruction:   lea    rax,[rbp-0x250]
+
+Found LEA instruction:   lea    rax,[rbp-0x230]
+
+Found LEA instruction:   lea    rax,[rbp-0x230]
+
+Found LEA instruction:   lea    rax,[rbp-0x251]
+
+Found LEA instruction:   lea    rax,[rbp-0x250]
+
+Found LEA instruction:   lea    rax,[rbp-0x230]
+
+Found LEA instruction:   lea    rax,[rbp-0x30]
+
+Found LEA instruction:   lea    rdx,[rbp-0x30]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rdx,[rax-0x6]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x41]
+
+Found LEA instruction:   lea    rdx,[rbp-0x41]
+
+Found LEA instruction:   lea    rax,[rbp-0x41]
+
+Found LEA instruction:   lea    rdx,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x41]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x50]
+
+Found LEA instruction:   lea    rdx,[rbp-0x50]
+
+Found LEA instruction:   lea    rax,[rbp-0x470]
+
+Found LEA instruction:   lea    rax,[rbp-0x4d5]
+
+Found LEA instruction:   lea    rdx,[rbp-0x4d5]
+
+Found LEA instruction:   lea    rax,[rbp-0x4d0]
+
+Found LEA instruction:   lea    rax,[rbp-0x4d5]
+
+Found LEA instruction:   lea    rdx,[rax-0x4]
+
+Found LEA instruction:   lea    rax,[rbp-0x4b0]
+
+Found LEA instruction:   lea    rax,[rbp-0x4b0]
+
+Found LEA instruction:   lea    rcx,[rbp-0x4b0]
+
+Found LEA instruction:   lea    rax,[rbp-0x260]
+
+Found LEA instruction:   lea    rax,[rbp-0x260]
+
+Found LEA instruction:   lea    rax,[rbp-0x4b0]
+
+Found LEA instruction:   lea    rax,[rbp-0x4b0]
+
+Found LEA instruction:   lea    rax,[rbp-0x490]
+
+Found LEA instruction:   lea    rax,[rbp-0x470]
+
+Found LEA instruction:   lea    rdx,[rbp-0x4d0]
+
+Found LEA instruction:   lea    rax,[rbp-0x470]
+
+Found LEA instruction:   lea    rax,[rbp-0x4d0]
+
+Found LEA instruction:   lea    rax,[rbp-0x4d0]
+
+Found LEA instruction:   lea    rax,[rbp-0x4d0]
+
+Found LEA instruction:   lea    rax,[rbp-0x490]
+
+Found LEA instruction:   lea    rdx,[rbp-0x4d0]
+
+Found LEA instruction:   lea    rax,[rbp-0x490]
+
+Found LEA instruction:   lea    rax,[rbp-0x490]
+
+Found LEA instruction:   lea    rax,[rbp-0x260]
+
+Found LEA instruction:   lea    rax,[rbp-0x260]
+
+Found LEA instruction:   lea    rax,[rbp-0x470]
+
+Found LEA instruction:   lea    rax,[rbp-0x490]
+
+Found LEA instruction:   lea    rax,[rbp-0x260]
+
+Found LEA instruction:   lea    rax,[rbp-0x4b0]
+
+Found LEA instruction:   lea    rax,[rbp-0x4d0]
+
+Found LEA instruction:   lea    rax,[rbp-0x470]
+
+Found LEA instruction:   lea    rax,[rbp-0x4d5]
+
+Found LEA instruction:   lea    rax,[rbp-0x490]
+
+Found LEA instruction:   lea    rax,[rbp-0x260]
+
+Found LEA instruction:   lea    rax,[rbp-0x4b0]
+
+Found LEA instruction:   lea    rax,[rbp-0x4d0]
+
+Found LEA instruction:   lea    rax,[rbp-0x470]
+
+Found LEA instruction:   lea    rax,[rbp-0x80]
+
+Found LEA instruction:   lea    rax,[rbp-0x60]
+
+Found LEA instruction:   lea    rdx,[rbp-0x80]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rdx,[rbp-0x60]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x60]
+
+Found LEA instruction:   lea    rax,[rbp-0x80]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+
+Found LEA instruction:   lea    rax,[rbp-0x60]
+
+Found LEA instruction:   lea    rax,[rbp-0x80]
+
+Found LEA instruction:   lea    rax,[rbp-0x40]
+

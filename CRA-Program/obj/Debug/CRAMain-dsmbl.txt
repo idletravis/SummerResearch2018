@@ -65,452 +65,555 @@ Disassembly of section .text:
  107:	48 8d 85 b0 fd ff ff 	lea    rax,[rbp-0x250]
  10e:	48 89 c7             	mov    rdi,rax
  111:	e8 00 00 00 00       	call   116 <_Z9locateDirB5cxx11v+0x116>
- 116:	90                   	nop
- 117:	48 8d 85 d0 fd ff ff 	lea    rax,[rbp-0x230]
- 11e:	48 89 c7             	mov    rdi,rax
- 121:	e8 00 00 00 00       	call   126 <_Z9locateDirB5cxx11v+0x126>
- 126:	90                   	nop
- 127:	48 8b 85 98 fd ff ff 	mov    rax,QWORD PTR [rbp-0x268]
- 12e:	48 8b 4d e8          	mov    rcx,QWORD PTR [rbp-0x18]
- 132:	64 48 33 0c 25 28 00 	xor    rcx,QWORD PTR fs:0x28
- 139:	00 00 
- 13b:	74 69                	je     1a6 <_Z9locateDirB5cxx11v+0x1a6>
- 13d:	eb 62                	jmp    1a1 <_Z9locateDirB5cxx11v+0x1a1>
- 13f:	48 89 c3             	mov    rbx,rax
- 142:	48 8d 85 af fd ff ff 	lea    rax,[rbp-0x251]
- 149:	48 89 c7             	mov    rdi,rax
- 14c:	e8 00 00 00 00       	call   151 <_Z9locateDirB5cxx11v+0x151>
- 151:	48 89 d8             	mov    rax,rbx
- 154:	48 89 c7             	mov    rdi,rax
- 157:	e8 00 00 00 00       	call   15c <_Z9locateDirB5cxx11v+0x15c>
- 15c:	48 89 c3             	mov    rbx,rax
- 15f:	48 8d 85 b0 fd ff ff 	lea    rax,[rbp-0x250]
- 166:	48 89 c7             	mov    rdi,rax
- 169:	e8 00 00 00 00       	call   16e <_Z9locateDirB5cxx11v+0x16e>
- 16e:	eb 03                	jmp    173 <_Z9locateDirB5cxx11v+0x173>
- 170:	48 89 c3             	mov    rbx,rax
- 173:	48 8d 85 d0 fd ff ff 	lea    rax,[rbp-0x230]
- 17a:	48 89 c7             	mov    rdi,rax
- 17d:	e8 00 00 00 00       	call   182 <_Z9locateDirB5cxx11v+0x182>
- 182:	eb 03                	jmp    187 <_Z9locateDirB5cxx11v+0x187>
- 184:	48 89 c3             	mov    rbx,rax
- 187:	48 8b 85 98 fd ff ff 	mov    rax,QWORD PTR [rbp-0x268]
- 18e:	48 89 c7             	mov    rdi,rax
- 191:	e8 00 00 00 00       	call   196 <_Z9locateDirB5cxx11v+0x196>
- 196:	48 89 d8             	mov    rax,rbx
- 199:	48 89 c7             	mov    rdi,rax
- 19c:	e8 00 00 00 00       	call   1a1 <_Z9locateDirB5cxx11v+0x1a1>
- 1a1:	e8 00 00 00 00       	call   1a6 <_Z9locateDirB5cxx11v+0x1a6>
- 1a6:	48 81 c4 68 02 00 00 	add    rsp,0x268
- 1ad:	5b                   	pop    rbx
- 1ae:	5d                   	pop    rbp
- 1af:	c3                   	ret    
+ 116:	48 8d 85 d0 fd ff ff 	lea    rax,[rbp-0x230]
+ 11d:	48 89 c7             	mov    rdi,rax
+ 120:	e8 00 00 00 00       	call   125 <_Z9locateDirB5cxx11v+0x125>
+ 125:	90                   	nop
+ 126:	48 8d 85 d0 fd ff ff 	lea    rax,[rbp-0x230]
+ 12d:	48 89 c7             	mov    rdi,rax
+ 130:	e8 00 00 00 00       	call   135 <_Z9locateDirB5cxx11v+0x135>
+ 135:	90                   	nop
+ 136:	48 8b 85 98 fd ff ff 	mov    rax,QWORD PTR [rbp-0x268]
+ 13d:	48 8b 4d e8          	mov    rcx,QWORD PTR [rbp-0x18]
+ 141:	64 48 33 0c 25 28 00 	xor    rcx,QWORD PTR fs:0x28
+ 148:	00 00 
+ 14a:	74 69                	je     1b5 <_Z9locateDirB5cxx11v+0x1b5>
+ 14c:	eb 62                	jmp    1b0 <_Z9locateDirB5cxx11v+0x1b0>
+ 14e:	48 89 c3             	mov    rbx,rax
+ 151:	48 8d 85 af fd ff ff 	lea    rax,[rbp-0x251]
+ 158:	48 89 c7             	mov    rdi,rax
+ 15b:	e8 00 00 00 00       	call   160 <_Z9locateDirB5cxx11v+0x160>
+ 160:	48 89 d8             	mov    rax,rbx
+ 163:	48 89 c7             	mov    rdi,rax
+ 166:	e8 00 00 00 00       	call   16b <_Z9locateDirB5cxx11v+0x16b>
+ 16b:	48 89 c3             	mov    rbx,rax
+ 16e:	48 8d 85 b0 fd ff ff 	lea    rax,[rbp-0x250]
+ 175:	48 89 c7             	mov    rdi,rax
+ 178:	e8 00 00 00 00       	call   17d <_Z9locateDirB5cxx11v+0x17d>
+ 17d:	eb 03                	jmp    182 <_Z9locateDirB5cxx11v+0x182>
+ 17f:	48 89 c3             	mov    rbx,rax
+ 182:	48 8d 85 d0 fd ff ff 	lea    rax,[rbp-0x230]
+ 189:	48 89 c7             	mov    rdi,rax
+ 18c:	e8 00 00 00 00       	call   191 <_Z9locateDirB5cxx11v+0x191>
+ 191:	eb 03                	jmp    196 <_Z9locateDirB5cxx11v+0x196>
+ 193:	48 89 c3             	mov    rbx,rax
+ 196:	48 8b 85 98 fd ff ff 	mov    rax,QWORD PTR [rbp-0x268]
+ 19d:	48 89 c7             	mov    rdi,rax
+ 1a0:	e8 00 00 00 00       	call   1a5 <_Z9locateDirB5cxx11v+0x1a5>
+ 1a5:	48 89 d8             	mov    rax,rbx
+ 1a8:	48 89 c7             	mov    rdi,rax
+ 1ab:	e8 00 00 00 00       	call   1b0 <_Z9locateDirB5cxx11v+0x1b0>
+ 1b0:	e8 00 00 00 00       	call   1b5 <_Z9locateDirB5cxx11v+0x1b5>
+ 1b5:	48 81 c4 68 02 00 00 	add    rsp,0x268
+ 1bc:	5b                   	pop    rbx
+ 1bd:	5d                   	pop    rbp
+ 1be:	c3                   	ret    
 
-00000000000001b0 <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE>:
- 1b0:	55                   	push   rbp
- 1b1:	48 89 e5             	mov    rbp,rsp
- 1b4:	48 83 ec 40          	sub    rsp,0x40
- 1b8:	e8 00 00 00 00       	call   1bd <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xd>
- 1bd:	48 89 7d c8          	mov    QWORD PTR [rbp-0x38],rdi
- 1c1:	48 89 75 c0          	mov    QWORD PTR [rbp-0x40],rsi
- 1c5:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
- 1cc:	00 00 
- 1ce:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
- 1d2:	31 c0                	xor    eax,eax
- 1d4:	be 00 00 00 00       	mov    esi,0x0
- 1d9:	bf 00 00 00 00       	mov    edi,0x0
- 1de:	e8 00 00 00 00       	call   1e3 <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x33>
- 1e3:	48 89 c2             	mov    rdx,rax
- 1e6:	48 8b 45 c0          	mov    rax,QWORD PTR [rbp-0x40]
- 1ea:	48 89 c6             	mov    rsi,rax
- 1ed:	48 89 d7             	mov    rdi,rdx
- 1f0:	e8 00 00 00 00       	call   1f5 <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x45>
- 1f5:	be 00 00 00 00       	mov    esi,0x0
- 1fa:	48 89 c7             	mov    rdi,rax
- 1fd:	e8 00 00 00 00       	call   202 <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x52>
- 202:	48 8d 45 d0          	lea    rax,[rbp-0x30]
- 206:	b9 0a 00 00 00       	mov    ecx,0xa
- 20b:	ba 28 00 00 00       	mov    edx,0x28
- 210:	48 89 c6             	mov    rsi,rax
- 213:	bf 00 00 00 00       	mov    edi,0x0
- 218:	e8 00 00 00 00       	call   21d <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x6d>
- 21d:	48 8d 55 d0          	lea    rdx,[rbp-0x30]
- 221:	48 8b 45 c0          	mov    rax,QWORD PTR [rbp-0x40]
- 225:	48 89 d6             	mov    rsi,rdx
- 228:	48 89 c7             	mov    rdi,rax
- 22b:	e8 00 00 00 00       	call   230 <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x80>
- 230:	48 8b 55 c0          	mov    rdx,QWORD PTR [rbp-0x40]
- 234:	48 8b 45 c8          	mov    rax,QWORD PTR [rbp-0x38]
- 238:	48 89 d6             	mov    rsi,rdx
- 23b:	48 89 c7             	mov    rdi,rax
- 23e:	e8 00 00 00 00       	call   243 <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x93>
+00000000000001bf <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE>:
+ 1bf:	55                   	push   rbp
+ 1c0:	48 89 e5             	mov    rbp,rsp
+ 1c3:	48 83 ec 40          	sub    rsp,0x40
+ 1c7:	e8 00 00 00 00       	call   1cc <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xd>
+ 1cc:	48 89 7d c8          	mov    QWORD PTR [rbp-0x38],rdi
+ 1d0:	48 89 75 c0          	mov    QWORD PTR [rbp-0x40],rsi
+ 1d4:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+ 1db:	00 00 
+ 1dd:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+ 1e1:	31 c0                	xor    eax,eax
+ 1e3:	be 00 00 00 00       	mov    esi,0x0
+ 1e8:	bf 00 00 00 00       	mov    edi,0x0
+ 1ed:	e8 00 00 00 00       	call   1f2 <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x33>
+ 1f2:	48 89 c2             	mov    rdx,rax
+ 1f5:	48 8b 45 c0          	mov    rax,QWORD PTR [rbp-0x40]
+ 1f9:	48 89 c6             	mov    rsi,rax
+ 1fc:	48 89 d7             	mov    rdi,rdx
+ 1ff:	e8 00 00 00 00       	call   204 <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x45>
+ 204:	be 00 00 00 00       	mov    esi,0x0
+ 209:	48 89 c7             	mov    rdi,rax
+ 20c:	e8 00 00 00 00       	call   211 <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x52>
+ 211:	48 8d 45 d0          	lea    rax,[rbp-0x30]
+ 215:	b9 0a 00 00 00       	mov    ecx,0xa
+ 21a:	ba 28 00 00 00       	mov    edx,0x28
+ 21f:	48 89 c6             	mov    rsi,rax
+ 222:	bf 00 00 00 00       	mov    edi,0x0
+ 227:	e8 00 00 00 00       	call   22c <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x6d>
+ 22c:	48 8d 55 d0          	lea    rdx,[rbp-0x30]
+ 230:	48 8b 45 c0          	mov    rax,QWORD PTR [rbp-0x40]
+ 234:	48 89 d6             	mov    rsi,rdx
+ 237:	48 89 c7             	mov    rdi,rax
+ 23a:	e8 00 00 00 00       	call   23f <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x80>
+ 23f:	48 8b 55 c0          	mov    rdx,QWORD PTR [rbp-0x40]
  243:	48 8b 45 c8          	mov    rax,QWORD PTR [rbp-0x38]
- 247:	48 8b 4d f8          	mov    rcx,QWORD PTR [rbp-0x8]
- 24b:	64 48 33 0c 25 28 00 	xor    rcx,QWORD PTR fs:0x28
- 252:	00 00 
- 254:	74 05                	je     25b <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xab>
- 256:	e8 00 00 00 00       	call   25b <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xab>
- 25b:	c9                   	leave  
- 25c:	c3                   	ret    
+ 247:	48 89 d6             	mov    rsi,rdx
+ 24a:	48 89 c7             	mov    rdi,rax
+ 24d:	e8 00 00 00 00       	call   252 <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x93>
+ 252:	48 8b 45 c8          	mov    rax,QWORD PTR [rbp-0x38]
+ 256:	48 8b 4d f8          	mov    rcx,QWORD PTR [rbp-0x8]
+ 25a:	64 48 33 0c 25 28 00 	xor    rcx,QWORD PTR fs:0x28
+ 261:	00 00 
+ 263:	74 05                	je     26a <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xab>
+ 265:	e8 00 00 00 00       	call   26a <_Z7askFileNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xab>
+ 26a:	c9                   	leave  
+ 26b:	c3                   	ret    
 
-000000000000025d <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE>:
- 25d:	55                   	push   rbp
- 25e:	48 89 e5             	mov    rbp,rsp
- 261:	53                   	push   rbx
- 262:	48 83 ec 58          	sub    rsp,0x58
- 266:	e8 00 00 00 00       	call   26b <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xe>
- 26b:	48 89 7d a8          	mov    QWORD PTR [rbp-0x58],rdi
- 26f:	48 89 75 a0          	mov    QWORD PTR [rbp-0x60],rsi
- 273:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
- 27a:	00 00 
- 27c:	48 89 45 e8          	mov    QWORD PTR [rbp-0x18],rax
- 280:	31 c0                	xor    eax,eax
- 282:	48 8b 55 a0          	mov    rdx,QWORD PTR [rbp-0x60]
- 286:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 28a:	48 89 d6             	mov    rsi,rdx
- 28d:	48 89 c7             	mov    rdi,rax
- 290:	e8 00 00 00 00       	call   295 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x38>
+000000000000026c <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE>:
+ 26c:	55                   	push   rbp
+ 26d:	48 89 e5             	mov    rbp,rsp
+ 270:	53                   	push   rbx
+ 271:	48 83 ec 58          	sub    rsp,0x58
+ 275:	e8 00 00 00 00       	call   27a <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xe>
+ 27a:	48 89 7d a8          	mov    QWORD PTR [rbp-0x58],rdi
+ 27e:	48 89 75 a0          	mov    QWORD PTR [rbp-0x60],rsi
+ 282:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+ 289:	00 00 
+ 28b:	48 89 45 e8          	mov    QWORD PTR [rbp-0x18],rax
+ 28f:	31 c0                	xor    eax,eax
+ 291:	48 8b 55 a0          	mov    rdx,QWORD PTR [rbp-0x60]
  295:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 299:	48 89 c7             	mov    rdi,rax
- 29c:	e8 00 00 00 00       	call   2a1 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x44>
- 2a1:	48 89 c3             	mov    rbx,rax
+ 299:	48 89 d6             	mov    rsi,rdx
+ 29c:	48 89 c7             	mov    rdi,rax
+ 29f:	e8 00 00 00 00       	call   2a4 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x38>
  2a4:	48 8d 45 c0          	lea    rax,[rbp-0x40]
  2a8:	48 89 c7             	mov    rdi,rax
- 2ab:	e8 00 00 00 00       	call   2b0 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x53>
- 2b0:	48 8d 50 fa          	lea    rdx,[rax-0x6]
- 2b4:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 2b8:	be 00 00 00 00       	mov    esi,0x0
- 2bd:	48 89 c7             	mov    rdi,rax
- 2c0:	e8 00 00 00 00       	call   2c5 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x68>
- 2c5:	48 89 c6             	mov    rsi,rax
- 2c8:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 2cc:	b9 00 00 00 00       	mov    ecx,0x0
- 2d1:	48 89 da             	mov    rdx,rbx
- 2d4:	48 89 c7             	mov    rdi,rax
- 2d7:	e8 00 00 00 00       	call   2dc <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x7f>
- 2dc:	48 8d 45 bf          	lea    rax,[rbp-0x41]
- 2e0:	48 89 c7             	mov    rdi,rax
- 2e3:	e8 00 00 00 00       	call   2e8 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x8b>
- 2e8:	48 8d 55 bf          	lea    rdx,[rbp-0x41]
- 2ec:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
- 2f0:	be 00 00 00 00       	mov    esi,0x0
- 2f5:	48 89 c7             	mov    rdi,rax
- 2f8:	e8 00 00 00 00       	call   2fd <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xa0>
- 2fd:	48 8d 45 bf          	lea    rax,[rbp-0x41]
- 301:	48 89 c7             	mov    rdi,rax
- 304:	e8 00 00 00 00       	call   309 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xac>
- 309:	48 8b 55 a0          	mov    rdx,QWORD PTR [rbp-0x60]
- 30d:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
- 311:	48 89 d6             	mov    rsi,rdx
- 314:	48 89 c7             	mov    rdi,rax
- 317:	e8 00 00 00 00       	call   31c <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xbf>
+ 2ab:	e8 00 00 00 00       	call   2b0 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x44>
+ 2b0:	48 89 c3             	mov    rbx,rax
+ 2b3:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 2b7:	48 89 c7             	mov    rdi,rax
+ 2ba:	e8 00 00 00 00       	call   2bf <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x53>
+ 2bf:	48 8d 50 fa          	lea    rdx,[rax-0x6]
+ 2c3:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 2c7:	be 00 00 00 00       	mov    esi,0x0
+ 2cc:	48 89 c7             	mov    rdi,rax
+ 2cf:	e8 00 00 00 00       	call   2d4 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x68>
+ 2d4:	48 89 c6             	mov    rsi,rax
+ 2d7:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 2db:	b9 00 00 00 00       	mov    ecx,0x0
+ 2e0:	48 89 da             	mov    rdx,rbx
+ 2e3:	48 89 c7             	mov    rdi,rax
+ 2e6:	e8 00 00 00 00       	call   2eb <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x7f>
+ 2eb:	48 8d 45 bf          	lea    rax,[rbp-0x41]
+ 2ef:	48 89 c7             	mov    rdi,rax
+ 2f2:	e8 00 00 00 00       	call   2f7 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x8b>
+ 2f7:	48 8d 55 bf          	lea    rdx,[rbp-0x41]
+ 2fb:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
+ 2ff:	be 00 00 00 00       	mov    esi,0x0
+ 304:	48 89 c7             	mov    rdi,rax
+ 307:	e8 00 00 00 00       	call   30c <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xa0>
+ 30c:	48 8d 45 bf          	lea    rax,[rbp-0x41]
+ 310:	48 89 c7             	mov    rdi,rax
+ 313:	e8 00 00 00 00       	call   318 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xac>
+ 318:	48 8b 55 a0          	mov    rdx,QWORD PTR [rbp-0x60]
  31c:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
- 320:	be 00 00 00 00       	mov    esi,0x0
- 325:	48 89 c7             	mov    rdi,rax
- 328:	e8 00 00 00 00       	call   32d <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xd0>
- 32d:	48 8d 55 c0          	lea    rdx,[rbp-0x40]
- 331:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
- 335:	48 89 d6             	mov    rsi,rdx
- 338:	48 89 c7             	mov    rdi,rax
- 33b:	e8 00 00 00 00       	call   340 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xe3>
- 340:	be 00 00 00 00       	mov    esi,0x0
- 345:	bf 00 00 00 00       	mov    edi,0x0
- 34a:	e8 00 00 00 00       	call   34f <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xf2>
- 34f:	48 89 c2             	mov    rdx,rax
- 352:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 356:	48 89 c6             	mov    rsi,rax
- 359:	48 89 d7             	mov    rdi,rdx
- 35c:	e8 00 00 00 00       	call   361 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x104>
- 361:	be 00 00 00 00       	mov    esi,0x0
- 366:	48 89 c7             	mov    rdi,rax
- 369:	e8 00 00 00 00       	call   36e <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x111>
- 36e:	90                   	nop
- 36f:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 373:	48 89 c7             	mov    rdi,rax
- 376:	e8 00 00 00 00       	call   37b <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x11e>
- 37b:	90                   	nop
- 37c:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
- 380:	48 8b 4d e8          	mov    rcx,QWORD PTR [rbp-0x18]
- 384:	64 48 33 0c 25 28 00 	xor    rcx,QWORD PTR fs:0x28
- 38b:	00 00 
- 38d:	74 43                	je     3d2 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x175>
- 38f:	eb 3c                	jmp    3cd <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x170>
- 391:	48 89 c3             	mov    rbx,rax
- 394:	48 8d 45 bf          	lea    rax,[rbp-0x41]
- 398:	48 89 c7             	mov    rdi,rax
- 39b:	e8 00 00 00 00       	call   3a0 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x143>
- 3a0:	eb 14                	jmp    3b6 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x159>
- 3a2:	48 89 c3             	mov    rbx,rax
- 3a5:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
- 3a9:	48 89 c7             	mov    rdi,rax
- 3ac:	e8 00 00 00 00       	call   3b1 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x154>
- 3b1:	eb 03                	jmp    3b6 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x159>
- 3b3:	48 89 c3             	mov    rbx,rax
- 3b6:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 3ba:	48 89 c7             	mov    rdi,rax
- 3bd:	e8 00 00 00 00       	call   3c2 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x165>
- 3c2:	48 89 d8             	mov    rax,rbx
- 3c5:	48 89 c7             	mov    rdi,rax
- 3c8:	e8 00 00 00 00       	call   3cd <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x170>
- 3cd:	e8 00 00 00 00       	call   3d2 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x175>
- 3d2:	48 83 c4 58          	add    rsp,0x58
- 3d6:	5b                   	pop    rbx
- 3d7:	5d                   	pop    rbp
- 3d8:	c3                   	ret    
+ 320:	48 89 d6             	mov    rsi,rdx
+ 323:	48 89 c7             	mov    rdi,rax
+ 326:	e8 00 00 00 00       	call   32b <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xbf>
+ 32b:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
+ 32f:	be 00 00 00 00       	mov    esi,0x0
+ 334:	48 89 c7             	mov    rdi,rax
+ 337:	e8 00 00 00 00       	call   33c <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xd0>
+ 33c:	48 8d 55 c0          	lea    rdx,[rbp-0x40]
+ 340:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
+ 344:	48 89 d6             	mov    rsi,rdx
+ 347:	48 89 c7             	mov    rdi,rax
+ 34a:	e8 00 00 00 00       	call   34f <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xe3>
+ 34f:	be 00 00 00 00       	mov    esi,0x0
+ 354:	bf 00 00 00 00       	mov    edi,0x0
+ 359:	e8 00 00 00 00       	call   35e <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xf2>
+ 35e:	48 89 c2             	mov    rdx,rax
+ 361:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 365:	48 89 c6             	mov    rsi,rax
+ 368:	48 89 d7             	mov    rdi,rdx
+ 36b:	e8 00 00 00 00       	call   370 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x104>
+ 370:	be 00 00 00 00       	mov    esi,0x0
+ 375:	48 89 c7             	mov    rdi,rax
+ 378:	e8 00 00 00 00       	call   37d <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x111>
+ 37d:	90                   	nop
+ 37e:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 382:	48 89 c7             	mov    rdi,rax
+ 385:	e8 00 00 00 00       	call   38a <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x11e>
+ 38a:	90                   	nop
+ 38b:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
+ 38f:	48 8b 4d e8          	mov    rcx,QWORD PTR [rbp-0x18]
+ 393:	64 48 33 0c 25 28 00 	xor    rcx,QWORD PTR fs:0x28
+ 39a:	00 00 
+ 39c:	74 43                	je     3e1 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x175>
+ 39e:	eb 3c                	jmp    3dc <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x170>
+ 3a0:	48 89 c3             	mov    rbx,rax
+ 3a3:	48 8d 45 bf          	lea    rax,[rbp-0x41]
+ 3a7:	48 89 c7             	mov    rdi,rax
+ 3aa:	e8 00 00 00 00       	call   3af <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x143>
+ 3af:	eb 14                	jmp    3c5 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x159>
+ 3b1:	48 89 c3             	mov    rbx,rax
+ 3b4:	48 8b 45 a8          	mov    rax,QWORD PTR [rbp-0x58]
+ 3b8:	48 89 c7             	mov    rdi,rax
+ 3bb:	e8 00 00 00 00       	call   3c0 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x154>
+ 3c0:	eb 03                	jmp    3c5 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x159>
+ 3c2:	48 89 c3             	mov    rbx,rax
+ 3c5:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 3c9:	48 89 c7             	mov    rdi,rax
+ 3cc:	e8 00 00 00 00       	call   3d1 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x165>
+ 3d1:	48 89 d8             	mov    rax,rbx
+ 3d4:	48 89 c7             	mov    rdi,rax
+ 3d7:	e8 00 00 00 00       	call   3dc <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x170>
+ 3dc:	e8 00 00 00 00       	call   3e1 <_Z14objDumpCommandNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x175>
+ 3e1:	48 83 c4 58          	add    rsp,0x58
+ 3e5:	5b                   	pop    rbx
+ 3e6:	5d                   	pop    rbp
+ 3e7:	c3                   	ret    
 
-00000000000003d9 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE>:
- 3d9:	55                   	push   rbp
- 3da:	48 89 e5             	mov    rbp,rsp
- 3dd:	53                   	push   rbx
- 3de:	48 81 ec 98 02 00 00 	sub    rsp,0x298
- 3e5:	e8 00 00 00 00       	call   3ea <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x11>
- 3ea:	48 89 bd 68 fd ff ff 	mov    QWORD PTR [rbp-0x298],rdi
- 3f1:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
- 3f8:	00 00 
- 3fa:	48 89 45 e8          	mov    QWORD PTR [rbp-0x18],rax
- 3fe:	31 c0                	xor    eax,eax
- 400:	be 00 00 00 00       	mov    esi,0x0
- 405:	bf 00 00 00 00       	mov    edi,0x0
- 40a:	e8 00 00 00 00       	call   40f <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x36>
- 40f:	48 89 c2             	mov    rdx,rax
- 412:	48 8b 85 68 fd ff ff 	mov    rax,QWORD PTR [rbp-0x298]
- 419:	48 89 c6             	mov    rsi,rax
- 41c:	48 89 d7             	mov    rdi,rdx
- 41f:	e8 00 00 00 00       	call   424 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x4b>
- 424:	be 00 00 00 00       	mov    esi,0x0
- 429:	48 89 c7             	mov    rdi,rax
- 42c:	e8 00 00 00 00       	call   431 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x58>
- 431:	48 8d 45 b0          	lea    rax,[rbp-0x50]
- 435:	b9 0a 00 00 00       	mov    ecx,0xa
- 43a:	ba 2c 00 00 00       	mov    edx,0x2c
- 43f:	48 89 c6             	mov    rsi,rax
- 442:	bf 00 00 00 00       	mov    edi,0x0
- 447:	e8 00 00 00 00       	call   44c <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x73>
- 44c:	48 8d 55 b0          	lea    rdx,[rbp-0x50]
- 450:	48 8b 85 68 fd ff ff 	mov    rax,QWORD PTR [rbp-0x298]
- 457:	48 89 d6             	mov    rsi,rdx
- 45a:	48 89 c7             	mov    rdi,rax
- 45d:	e8 00 00 00 00       	call   462 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x89>
- 462:	be 01 00 00 00       	mov    esi,0x1
- 467:	bf 08 00 00 00       	mov    edi,0x8
- 46c:	e8 00 00 00 00       	call   471 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x98>
- 471:	89 c2                	mov    edx,eax
- 473:	48 8b 8d 68 fd ff ff 	mov    rcx,QWORD PTR [rbp-0x298]
- 47a:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
- 481:	48 89 ce             	mov    rsi,rcx
- 484:	48 89 c7             	mov    rdi,rax
- 487:	e8 00 00 00 00       	call   48c <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xb3>
- 48c:	48 8d 85 7b fd ff ff 	lea    rax,[rbp-0x285]
+00000000000003e8 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE>:
+ 3e8:	55                   	push   rbp
+ 3e9:	48 89 e5             	mov    rbp,rsp
+ 3ec:	53                   	push   rbx
+ 3ed:	48 81 ec e8 04 00 00 	sub    rsp,0x4e8
+ 3f4:	e8 00 00 00 00       	call   3f9 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x11>
+ 3f9:	48 89 bd 18 fb ff ff 	mov    QWORD PTR [rbp-0x4e8],rdi
+ 400:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+ 407:	00 00 
+ 409:	48 89 45 e8          	mov    QWORD PTR [rbp-0x18],rax
+ 40d:	31 c0                	xor    eax,eax
+ 40f:	be 00 00 00 00       	mov    esi,0x0
+ 414:	bf 00 00 00 00       	mov    edi,0x0
+ 419:	e8 00 00 00 00       	call   41e <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x36>
+ 41e:	48 89 c2             	mov    rdx,rax
+ 421:	48 8b 85 18 fb ff ff 	mov    rax,QWORD PTR [rbp-0x4e8]
+ 428:	48 89 c6             	mov    rsi,rax
+ 42b:	48 89 d7             	mov    rdi,rdx
+ 42e:	e8 00 00 00 00       	call   433 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x4b>
+ 433:	be 00 00 00 00       	mov    esi,0x0
+ 438:	48 89 c7             	mov    rdi,rax
+ 43b:	e8 00 00 00 00       	call   440 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x58>
+ 440:	48 8d 45 b0          	lea    rax,[rbp-0x50]
+ 444:	b9 0a 00 00 00       	mov    ecx,0xa
+ 449:	ba 2c 00 00 00       	mov    edx,0x2c
+ 44e:	48 89 c6             	mov    rsi,rax
+ 451:	bf 00 00 00 00       	mov    edi,0x0
+ 456:	e8 00 00 00 00       	call   45b <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x73>
+ 45b:	48 8d 55 b0          	lea    rdx,[rbp-0x50]
+ 45f:	48 8b 85 18 fb ff ff 	mov    rax,QWORD PTR [rbp-0x4e8]
+ 466:	48 89 d6             	mov    rsi,rdx
+ 469:	48 89 c7             	mov    rdi,rax
+ 46c:	e8 00 00 00 00       	call   471 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x89>
+ 471:	be 01 00 00 00       	mov    esi,0x1
+ 476:	bf 08 00 00 00       	mov    edi,0x8
+ 47b:	e8 00 00 00 00       	call   480 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x98>
+ 480:	89 c2                	mov    edx,eax
+ 482:	48 8b 8d 18 fb ff ff 	mov    rcx,QWORD PTR [rbp-0x4e8]
+ 489:	48 8d 85 90 fb ff ff 	lea    rax,[rbp-0x470]
+ 490:	48 89 ce             	mov    rsi,rcx
  493:	48 89 c7             	mov    rdi,rax
- 496:	e8 00 00 00 00       	call   49b <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xc2>
- 49b:	48 8d 95 7b fd ff ff 	lea    rdx,[rbp-0x285]
- 4a2:	48 8d 85 80 fd ff ff 	lea    rax,[rbp-0x280]
- 4a9:	48 89 d1             	mov    rcx,rdx
- 4ac:	ba 20 00 00 00       	mov    edx,0x20
- 4b1:	be 40 00 00 00       	mov    esi,0x40
- 4b6:	48 89 c7             	mov    rdi,rax
- 4b9:	e8 00 00 00 00       	call   4be <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xe5>
- 4be:	48 8d 85 7b fd ff ff 	lea    rax,[rbp-0x285]
+ 496:	e8 00 00 00 00       	call   49b <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xb3>
+ 49b:	48 8d 85 2b fb ff ff 	lea    rax,[rbp-0x4d5]
+ 4a2:	48 89 c7             	mov    rdi,rax
+ 4a5:	e8 00 00 00 00       	call   4aa <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xc2>
+ 4aa:	48 8d 95 2b fb ff ff 	lea    rdx,[rbp-0x4d5]
+ 4b1:	48 8d 85 30 fb ff ff 	lea    rax,[rbp-0x4d0]
+ 4b8:	48 89 d1             	mov    rcx,rdx
+ 4bb:	ba 20 00 00 00       	mov    edx,0x20
+ 4c0:	be 40 00 00 00       	mov    esi,0x40
  4c5:	48 89 c7             	mov    rdi,rax
- 4c8:	e8 00 00 00 00       	call   4cd <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xf4>
- 4cd:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
- 4d4:	48 05 08 01 00 00    	add    rax,0x108
- 4da:	48 89 c7             	mov    rdi,rax
- 4dd:	e8 00 00 00 00       	call   4e2 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x109>
- 4e2:	83 f0 01             	xor    eax,0x1
- 4e5:	84 c0                	test   al,al
- 4e7:	0f 84 a9 00 00 00    	je     596 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1bd>
- 4ed:	48 8d 95 80 fd ff ff 	lea    rdx,[rbp-0x280]
- 4f4:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
- 4fb:	48 89 d6             	mov    rsi,rdx
- 4fe:	48 89 c7             	mov    rdi,rax
- 501:	e8 00 00 00 00       	call   506 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x12d>
- 506:	48 8d 85 80 fd ff ff 	lea    rax,[rbp-0x280]
- 50d:	b9 03 00 00 00       	mov    ecx,0x3
- 512:	ba 00 00 00 00       	mov    edx,0x0
- 517:	be 00 00 00 00       	mov    esi,0x0
- 51c:	48 89 c7             	mov    rdi,rax
- 51f:	e8 00 00 00 00       	call   524 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x14b>
- 524:	89 85 7c fd ff ff    	mov    DWORD PTR [rbp-0x284],eax
- 52a:	83 bd 7c fd ff ff ff 	cmp    DWORD PTR [rbp-0x284],0xffffffff
- 531:	74 9a                	je     4cd <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xf4>
- 533:	48 8d 85 80 fd ff ff 	lea    rax,[rbp-0x280]
- 53a:	b9 05 00 00 00       	mov    ecx,0x5
- 53f:	ba 00 00 00 00       	mov    edx,0x0
- 544:	be 00 00 00 00       	mov    esi,0x0
- 549:	48 89 c7             	mov    rdi,rax
- 54c:	e8 00 00 00 00       	call   551 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x178>
- 551:	48 83 f8 ff          	cmp    rax,0xffffffffffffffff
- 555:	0f 94 c0             	sete   al
- 558:	84 c0                	test   al,al
- 55a:	0f 84 6d ff ff ff    	je     4cd <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xf4>
- 560:	be 00 00 00 00       	mov    esi,0x0
- 565:	bf 00 00 00 00       	mov    edi,0x0
- 56a:	e8 00 00 00 00       	call   56f <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x196>
- 56f:	48 89 c2             	mov    rdx,rax
- 572:	48 8d 85 80 fd ff ff 	lea    rax,[rbp-0x280]
- 579:	48 89 c6             	mov    rsi,rax
- 57c:	48 89 d7             	mov    rdi,rdx
- 57f:	e8 00 00 00 00       	call   584 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1ab>
- 584:	be 00 00 00 00       	mov    esi,0x0
- 589:	48 89 c7             	mov    rdi,rax
- 58c:	e8 00 00 00 00       	call   591 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1b8>
- 591:	e9 37 ff ff ff       	jmp    4cd <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xf4>
- 596:	bf 00 00 00 00       	mov    edi,0x0
- 59b:	e8 00 00 00 00       	call   5a0 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1c7>
- 5a0:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
+ 4c8:	e8 00 00 00 00       	call   4cd <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xe5>
+ 4cd:	48 8d 85 2b fb ff ff 	lea    rax,[rbp-0x4d5]
+ 4d4:	48 89 c7             	mov    rdi,rax
+ 4d7:	e8 00 00 00 00       	call   4dc <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xf4>
+ 4dc:	48 8b 85 18 fb ff ff 	mov    rax,QWORD PTR [rbp-0x4e8]
+ 4e3:	48 89 c7             	mov    rdi,rax
+ 4e6:	e8 00 00 00 00       	call   4eb <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x103>
+ 4eb:	48 8d 50 fc          	lea    rdx,[rax-0x4]
+ 4ef:	48 8b b5 18 fb ff ff 	mov    rsi,QWORD PTR [rbp-0x4e8]
+ 4f6:	48 8d 85 50 fb ff ff 	lea    rax,[rbp-0x4b0]
+ 4fd:	48 89 d1             	mov    rcx,rdx
+ 500:	ba 00 00 00 00       	mov    edx,0x0
+ 505:	48 89 c7             	mov    rdi,rax
+ 508:	e8 00 00 00 00       	call   50d <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x125>
+ 50d:	48 8d 85 50 fb ff ff 	lea    rax,[rbp-0x4b0]
+ 514:	be 00 00 00 00       	mov    esi,0x0
+ 519:	48 89 c7             	mov    rdi,rax
+ 51c:	e8 00 00 00 00       	call   521 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x139>
+ 521:	be 20 00 00 00       	mov    esi,0x20
+ 526:	bf 10 00 00 00       	mov    edi,0x10
+ 52b:	e8 00 00 00 00       	call   530 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x148>
+ 530:	89 c2                	mov    edx,eax
+ 532:	48 8d 8d 50 fb ff ff 	lea    rcx,[rbp-0x4b0]
+ 539:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
+ 540:	48 89 ce             	mov    rsi,rcx
+ 543:	48 89 c7             	mov    rdi,rax
+ 546:	e8 00 00 00 00       	call   54b <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x163>
+ 54b:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
+ 552:	48 89 c7             	mov    rdi,rax
+ 555:	e8 00 00 00 00       	call   55a <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x172>
+ 55a:	84 c0                	test   al,al
+ 55c:	74 30                	je     58e <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1a6>
+ 55e:	48 8d 85 50 fb ff ff 	lea    rax,[rbp-0x4b0]
+ 565:	48 89 c6             	mov    rsi,rax
+ 568:	bf 00 00 00 00       	mov    edi,0x0
+ 56d:	e8 00 00 00 00       	call   572 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x18a>
+ 572:	be 00 00 00 00       	mov    esi,0x0
+ 577:	48 89 c7             	mov    rdi,rax
+ 57a:	e8 00 00 00 00       	call   57f <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x197>
+ 57f:	be 00 00 00 00       	mov    esi,0x0
+ 584:	48 89 c7             	mov    rdi,rax
+ 587:	e8 00 00 00 00       	call   58c <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1a4>
+ 58c:	eb 2e                	jmp    5bc <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1d4>
+ 58e:	48 8d 85 50 fb ff ff 	lea    rax,[rbp-0x4b0]
+ 595:	48 89 c6             	mov    rsi,rax
+ 598:	bf 00 00 00 00       	mov    edi,0x0
+ 59d:	e8 00 00 00 00       	call   5a2 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1ba>
+ 5a2:	be 00 00 00 00       	mov    esi,0x0
  5a7:	48 89 c7             	mov    rdi,rax
- 5aa:	e8 00 00 00 00       	call   5af <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1d6>
- 5af:	48 8d 85 80 fd ff ff 	lea    rax,[rbp-0x280]
- 5b6:	48 89 c7             	mov    rdi,rax
- 5b9:	e8 00 00 00 00       	call   5be <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1e5>
- 5be:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
- 5c5:	48 89 c7             	mov    rdi,rax
- 5c8:	e8 00 00 00 00       	call   5cd <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1f4>
- 5cd:	90                   	nop
- 5ce:	48 8b 45 e8          	mov    rax,QWORD PTR [rbp-0x18]
- 5d2:	64 48 33 04 25 28 00 	xor    rax,QWORD PTR fs:0x28
- 5d9:	00 00 
- 5db:	74 47                	je     624 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x24b>
- 5dd:	eb 40                	jmp    61f <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x246>
- 5df:	48 89 c3             	mov    rbx,rax
- 5e2:	48 8d 85 7b fd ff ff 	lea    rax,[rbp-0x285]
- 5e9:	48 89 c7             	mov    rdi,rax
- 5ec:	e8 00 00 00 00       	call   5f1 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x218>
- 5f1:	eb 12                	jmp    605 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x22c>
- 5f3:	48 89 c3             	mov    rbx,rax
- 5f6:	48 8d 85 80 fd ff ff 	lea    rax,[rbp-0x280]
- 5fd:	48 89 c7             	mov    rdi,rax
- 600:	e8 00 00 00 00       	call   605 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x22c>
- 605:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
- 60c:	48 89 c7             	mov    rdi,rax
- 60f:	e8 00 00 00 00       	call   614 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x23b>
- 614:	48 89 d8             	mov    rax,rbx
- 617:	48 89 c7             	mov    rdi,rax
- 61a:	e8 00 00 00 00       	call   61f <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x246>
- 61f:	e8 00 00 00 00       	call   624 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x24b>
- 624:	48 81 c4 98 02 00 00 	add    rsp,0x298
- 62b:	5b                   	pop    rbx
- 62c:	5d                   	pop    rbp
- 62d:	c3                   	ret    
+ 5aa:	e8 00 00 00 00       	call   5af <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1c7>
+ 5af:	be 00 00 00 00       	mov    esi,0x0
+ 5b4:	48 89 c7             	mov    rdi,rax
+ 5b7:	e8 00 00 00 00       	call   5bc <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1d4>
+ 5bc:	48 8d 85 70 fb ff ff 	lea    rax,[rbp-0x490]
+ 5c3:	48 89 c7             	mov    rdi,rax
+ 5c6:	e8 00 00 00 00       	call   5cb <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1e3>
+ 5cb:	48 8d 85 90 fb ff ff 	lea    rax,[rbp-0x470]
+ 5d2:	48 05 08 01 00 00    	add    rax,0x108
+ 5d8:	48 89 c7             	mov    rdi,rax
+ 5db:	e8 00 00 00 00       	call   5e0 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1f8>
+ 5e0:	83 f0 01             	xor    eax,0x1
+ 5e3:	84 c0                	test   al,al
+ 5e5:	0f 84 0b 01 00 00    	je     6f6 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x30e>
+ 5eb:	48 8d 95 30 fb ff ff 	lea    rdx,[rbp-0x4d0]
+ 5f2:	48 8d 85 90 fb ff ff 	lea    rax,[rbp-0x470]
+ 5f9:	48 89 d6             	mov    rsi,rdx
+ 5fc:	48 89 c7             	mov    rdi,rax
+ 5ff:	e8 00 00 00 00       	call   604 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x21c>
+ 604:	48 8d 85 30 fb ff ff 	lea    rax,[rbp-0x4d0]
+ 60b:	b9 03 00 00 00       	mov    ecx,0x3
+ 610:	ba 00 00 00 00       	mov    edx,0x0
+ 615:	be 00 00 00 00       	mov    esi,0x0
+ 61a:	48 89 c7             	mov    rdi,rax
+ 61d:	e8 00 00 00 00       	call   622 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x23a>
+ 622:	89 85 2c fb ff ff    	mov    DWORD PTR [rbp-0x4d4],eax
+ 628:	83 bd 2c fb ff ff ff 	cmp    DWORD PTR [rbp-0x4d4],0xffffffff
+ 62f:	74 9a                	je     5cb <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1e3>
+ 631:	48 8d 85 30 fb ff ff 	lea    rax,[rbp-0x4d0]
+ 638:	b9 05 00 00 00       	mov    ecx,0x5
+ 63d:	ba 00 00 00 00       	mov    edx,0x0
+ 642:	be 00 00 00 00       	mov    esi,0x0
+ 647:	48 89 c7             	mov    rdi,rax
+ 64a:	e8 00 00 00 00       	call   64f <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x267>
+ 64f:	48 83 f8 ff          	cmp    rax,0xffffffffffffffff
+ 653:	0f 94 c0             	sete   al
+ 656:	84 c0                	test   al,al
+ 658:	0f 84 6d ff ff ff    	je     5cb <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1e3>
+ 65e:	be 00 00 00 00       	mov    esi,0x0
+ 663:	bf 00 00 00 00       	mov    edi,0x0
+ 668:	e8 00 00 00 00       	call   66d <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x285>
+ 66d:	48 89 c2             	mov    rdx,rax
+ 670:	48 8d 85 30 fb ff ff 	lea    rax,[rbp-0x4d0]
+ 677:	48 89 c6             	mov    rsi,rax
+ 67a:	48 89 d7             	mov    rdi,rdx
+ 67d:	e8 00 00 00 00       	call   682 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x29a>
+ 682:	be 00 00 00 00       	mov    esi,0x0
+ 687:	48 89 c7             	mov    rdi,rax
+ 68a:	e8 00 00 00 00       	call   68f <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x2a7>
+ 68f:	48 8d 85 70 fb ff ff 	lea    rax,[rbp-0x490]
+ 696:	be 00 00 00 00       	mov    esi,0x0
+ 69b:	48 89 c7             	mov    rdi,rax
+ 69e:	e8 00 00 00 00       	call   6a3 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x2bb>
+ 6a3:	48 8d 95 30 fb ff ff 	lea    rdx,[rbp-0x4d0]
+ 6aa:	48 8d 85 70 fb ff ff 	lea    rax,[rbp-0x490]
+ 6b1:	48 89 d6             	mov    rsi,rdx
+ 6b4:	48 89 c7             	mov    rdi,rax
+ 6b7:	e8 00 00 00 00       	call   6bc <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x2d4>
+ 6bc:	48 8d 85 70 fb ff ff 	lea    rax,[rbp-0x490]
+ 6c3:	48 89 c7             	mov    rdi,rax
+ 6c6:	e8 00 00 00 00       	call   6cb <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x2e3>
+ 6cb:	48 89 c2             	mov    rdx,rax
+ 6ce:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
+ 6d5:	48 83 c0 10          	add    rax,0x10
+ 6d9:	48 89 d6             	mov    rsi,rdx
+ 6dc:	48 89 c7             	mov    rdi,rax
+ 6df:	e8 00 00 00 00       	call   6e4 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x2fc>
+ 6e4:	be 00 00 00 00       	mov    esi,0x0
+ 6e9:	48 89 c7             	mov    rdi,rax
+ 6ec:	e8 00 00 00 00       	call   6f1 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x309>
+ 6f1:	e9 d5 fe ff ff       	jmp    5cb <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1e3>
+ 6f6:	bf 00 00 00 00       	mov    edi,0x0
+ 6fb:	e8 00 00 00 00       	call   700 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x318>
+ 700:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
+ 707:	48 89 c7             	mov    rdi,rax
+ 70a:	e8 00 00 00 00       	call   70f <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x327>
+ 70f:	48 8d 85 90 fb ff ff 	lea    rax,[rbp-0x470]
+ 716:	48 89 c7             	mov    rdi,rax
+ 719:	e8 00 00 00 00       	call   71e <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x336>
+ 71e:	48 8d 85 70 fb ff ff 	lea    rax,[rbp-0x490]
+ 725:	48 89 c7             	mov    rdi,rax
+ 728:	e8 00 00 00 00       	call   72d <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x345>
+ 72d:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
+ 734:	48 89 c7             	mov    rdi,rax
+ 737:	e8 00 00 00 00       	call   73c <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x354>
+ 73c:	48 8d 85 50 fb ff ff 	lea    rax,[rbp-0x4b0]
+ 743:	48 89 c7             	mov    rdi,rax
+ 746:	e8 00 00 00 00       	call   74b <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x363>
+ 74b:	48 8d 85 30 fb ff ff 	lea    rax,[rbp-0x4d0]
+ 752:	48 89 c7             	mov    rdi,rax
+ 755:	e8 00 00 00 00       	call   75a <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x372>
+ 75a:	48 8d 85 90 fb ff ff 	lea    rax,[rbp-0x470]
+ 761:	48 89 c7             	mov    rdi,rax
+ 764:	e8 00 00 00 00       	call   769 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x381>
+ 769:	90                   	nop
+ 76a:	48 8b 45 e8          	mov    rax,QWORD PTR [rbp-0x18]
+ 76e:	64 48 33 04 25 28 00 	xor    rax,QWORD PTR fs:0x28
+ 775:	00 00 
+ 777:	0f 84 83 00 00 00    	je     800 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x418>
+ 77d:	eb 7c                	jmp    7fb <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x413>
+ 77f:	48 89 c3             	mov    rbx,rax
+ 782:	48 8d 85 2b fb ff ff 	lea    rax,[rbp-0x4d5]
+ 789:	48 89 c7             	mov    rdi,rax
+ 78c:	e8 00 00 00 00       	call   791 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x3a9>
+ 791:	eb 4e                	jmp    7e1 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x3f9>
+ 793:	48 89 c3             	mov    rbx,rax
+ 796:	48 8d 85 70 fb ff ff 	lea    rax,[rbp-0x490]
+ 79d:	48 89 c7             	mov    rdi,rax
+ 7a0:	e8 00 00 00 00       	call   7a5 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x3bd>
+ 7a5:	eb 03                	jmp    7aa <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x3c2>
+ 7a7:	48 89 c3             	mov    rbx,rax
+ 7aa:	48 8d 85 a0 fd ff ff 	lea    rax,[rbp-0x260]
+ 7b1:	48 89 c7             	mov    rdi,rax
+ 7b4:	e8 00 00 00 00       	call   7b9 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x3d1>
+ 7b9:	eb 03                	jmp    7be <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x3d6>
+ 7bb:	48 89 c3             	mov    rbx,rax
+ 7be:	48 8d 85 50 fb ff ff 	lea    rax,[rbp-0x4b0]
+ 7c5:	48 89 c7             	mov    rdi,rax
+ 7c8:	e8 00 00 00 00       	call   7cd <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x3e5>
+ 7cd:	eb 03                	jmp    7d2 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x3ea>
+ 7cf:	48 89 c3             	mov    rbx,rax
+ 7d2:	48 8d 85 30 fb ff ff 	lea    rax,[rbp-0x4d0]
+ 7d9:	48 89 c7             	mov    rdi,rax
+ 7dc:	e8 00 00 00 00       	call   7e1 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x3f9>
+ 7e1:	48 8d 85 90 fb ff ff 	lea    rax,[rbp-0x470]
+ 7e8:	48 89 c7             	mov    rdi,rax
+ 7eb:	e8 00 00 00 00       	call   7f0 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x408>
+ 7f0:	48 89 d8             	mov    rax,rbx
+ 7f3:	48 89 c7             	mov    rdi,rax
+ 7f6:	e8 00 00 00 00       	call   7fb <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x413>
+ 7fb:	e8 00 00 00 00       	call   800 <_Z7findLEANSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x418>
+ 800:	48 81 c4 e8 04 00 00 	add    rsp,0x4e8
+ 807:	5b                   	pop    rbx
+ 808:	5d                   	pop    rbp
+ 809:	c3                   	ret    
 
-000000000000062e <main>:
- 62e:	55                   	push   rbp
- 62f:	48 89 e5             	mov    rbp,rsp
- 632:	53                   	push   rbx
- 633:	48 83 ec 78          	sub    rsp,0x78
- 637:	e8 00 00 00 00       	call   63c <main+0xe>
- 63c:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
- 643:	00 00 
- 645:	48 89 45 e8          	mov    QWORD PTR [rbp-0x18],rax
- 649:	31 c0                	xor    eax,eax
- 64b:	48 8d 45 80          	lea    rax,[rbp-0x80]
- 64f:	48 89 c7             	mov    rdi,rax
- 652:	e8 00 00 00 00       	call   657 <main+0x29>
- 657:	48 8d 45 a0          	lea    rax,[rbp-0x60]
- 65b:	48 8d 55 80          	lea    rdx,[rbp-0x80]
- 65f:	48 89 d6             	mov    rsi,rdx
- 662:	48 89 c7             	mov    rdi,rax
- 665:	e8 00 00 00 00       	call   66a <main+0x3c>
- 66a:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 66e:	48 8d 55 a0          	lea    rdx,[rbp-0x60]
- 672:	48 89 d6             	mov    rsi,rdx
- 675:	48 89 c7             	mov    rdi,rax
- 678:	e8 00 00 00 00       	call   67d <main+0x4f>
- 67d:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 681:	48 89 c7             	mov    rdi,rax
- 684:	e8 00 00 00 00       	call   689 <main+0x5b>
- 689:	48 89 c7             	mov    rdi,rax
- 68c:	e8 00 00 00 00       	call   691 <main+0x63>
- 691:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 695:	48 89 c7             	mov    rdi,rax
- 698:	e8 00 00 00 00       	call   69d <main+0x6f>
- 69d:	48 8d 45 a0          	lea    rax,[rbp-0x60]
- 6a1:	48 89 c7             	mov    rdi,rax
- 6a4:	e8 00 00 00 00       	call   6a9 <main+0x7b>
- 6a9:	48 8d 45 80          	lea    rax,[rbp-0x80]
- 6ad:	48 89 c7             	mov    rdi,rax
- 6b0:	e8 00 00 00 00       	call   6b5 <main+0x87>
- 6b5:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 6b9:	48 89 c7             	mov    rdi,rax
- 6bc:	e8 00 00 00 00       	call   6c1 <main+0x93>
- 6c1:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 6c5:	48 89 c7             	mov    rdi,rax
- 6c8:	e8 00 00 00 00       	call   6cd <main+0x9f>
- 6cd:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 6d1:	48 89 c7             	mov    rdi,rax
- 6d4:	e8 00 00 00 00       	call   6d9 <main+0xab>
- 6d9:	e8 00 00 00 00       	call   6de <main+0xb0>
- 6de:	ba 0a 00 00 00       	mov    edx,0xa
- 6e3:	48 89 c6             	mov    rsi,rax
- 6e6:	bf 00 00 00 00       	mov    edi,0x0
- 6eb:	e8 00 00 00 00       	call   6f0 <main+0xc2>
- 6f0:	b8 00 00 00 00       	mov    eax,0x0
- 6f5:	48 8b 4d e8          	mov    rcx,QWORD PTR [rbp-0x18]
- 6f9:	64 48 33 0c 25 28 00 	xor    rcx,QWORD PTR fs:0x28
- 700:	00 00 
- 702:	74 5d                	je     761 <main+0x133>
- 704:	eb 56                	jmp    75c <main+0x12e>
- 706:	48 89 c3             	mov    rbx,rax
- 709:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 70d:	48 89 c7             	mov    rdi,rax
- 710:	e8 00 00 00 00       	call   715 <main+0xe7>
- 715:	eb 03                	jmp    71a <main+0xec>
- 717:	48 89 c3             	mov    rbx,rax
- 71a:	48 8d 45 a0          	lea    rax,[rbp-0x60]
- 71e:	48 89 c7             	mov    rdi,rax
- 721:	e8 00 00 00 00       	call   726 <main+0xf8>
- 726:	eb 03                	jmp    72b <main+0xfd>
- 728:	48 89 c3             	mov    rbx,rax
- 72b:	48 8d 45 80          	lea    rax,[rbp-0x80]
- 72f:	48 89 c7             	mov    rdi,rax
- 732:	e8 00 00 00 00       	call   737 <main+0x109>
- 737:	48 89 d8             	mov    rax,rbx
- 73a:	48 89 c7             	mov    rdi,rax
- 73d:	e8 00 00 00 00       	call   742 <main+0x114>
- 742:	48 89 c3             	mov    rbx,rax
- 745:	48 8d 45 c0          	lea    rax,[rbp-0x40]
- 749:	48 89 c7             	mov    rdi,rax
- 74c:	e8 00 00 00 00       	call   751 <main+0x123>
- 751:	48 89 d8             	mov    rax,rbx
- 754:	48 89 c7             	mov    rdi,rax
- 757:	e8 00 00 00 00       	call   75c <main+0x12e>
- 75c:	e8 00 00 00 00       	call   761 <main+0x133>
- 761:	48 83 c4 78          	add    rsp,0x78
- 765:	5b                   	pop    rbx
- 766:	5d                   	pop    rbp
- 767:	c3                   	ret    
+000000000000080a <main>:
+ 80a:	55                   	push   rbp
+ 80b:	48 89 e5             	mov    rbp,rsp
+ 80e:	53                   	push   rbx
+ 80f:	48 83 ec 78          	sub    rsp,0x78
+ 813:	e8 00 00 00 00       	call   818 <main+0xe>
+ 818:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+ 81f:	00 00 
+ 821:	48 89 45 e8          	mov    QWORD PTR [rbp-0x18],rax
+ 825:	31 c0                	xor    eax,eax
+ 827:	48 8d 45 80          	lea    rax,[rbp-0x80]
+ 82b:	48 89 c7             	mov    rdi,rax
+ 82e:	e8 00 00 00 00       	call   833 <main+0x29>
+ 833:	48 8d 45 a0          	lea    rax,[rbp-0x60]
+ 837:	48 8d 55 80          	lea    rdx,[rbp-0x80]
+ 83b:	48 89 d6             	mov    rsi,rdx
+ 83e:	48 89 c7             	mov    rdi,rax
+ 841:	e8 00 00 00 00       	call   846 <main+0x3c>
+ 846:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 84a:	48 8d 55 a0          	lea    rdx,[rbp-0x60]
+ 84e:	48 89 d6             	mov    rsi,rdx
+ 851:	48 89 c7             	mov    rdi,rax
+ 854:	e8 00 00 00 00       	call   859 <main+0x4f>
+ 859:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 85d:	48 89 c7             	mov    rdi,rax
+ 860:	e8 00 00 00 00       	call   865 <main+0x5b>
+ 865:	48 89 c7             	mov    rdi,rax
+ 868:	e8 00 00 00 00       	call   86d <main+0x63>
+ 86d:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 871:	48 89 c7             	mov    rdi,rax
+ 874:	e8 00 00 00 00       	call   879 <main+0x6f>
+ 879:	48 8d 45 a0          	lea    rax,[rbp-0x60]
+ 87d:	48 89 c7             	mov    rdi,rax
+ 880:	e8 00 00 00 00       	call   885 <main+0x7b>
+ 885:	48 8d 45 80          	lea    rax,[rbp-0x80]
+ 889:	48 89 c7             	mov    rdi,rax
+ 88c:	e8 00 00 00 00       	call   891 <main+0x87>
+ 891:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 895:	48 89 c7             	mov    rdi,rax
+ 898:	e8 00 00 00 00       	call   89d <main+0x93>
+ 89d:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 8a1:	48 89 c7             	mov    rdi,rax
+ 8a4:	e8 00 00 00 00       	call   8a9 <main+0x9f>
+ 8a9:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 8ad:	48 89 c7             	mov    rdi,rax
+ 8b0:	e8 00 00 00 00       	call   8b5 <main+0xab>
+ 8b5:	e8 00 00 00 00       	call   8ba <main+0xb0>
+ 8ba:	ba 0a 00 00 00       	mov    edx,0xa
+ 8bf:	48 89 c6             	mov    rsi,rax
+ 8c2:	bf 00 00 00 00       	mov    edi,0x0
+ 8c7:	e8 00 00 00 00       	call   8cc <main+0xc2>
+ 8cc:	b8 00 00 00 00       	mov    eax,0x0
+ 8d1:	48 8b 4d e8          	mov    rcx,QWORD PTR [rbp-0x18]
+ 8d5:	64 48 33 0c 25 28 00 	xor    rcx,QWORD PTR fs:0x28
+ 8dc:	00 00 
+ 8de:	74 5d                	je     93d <main+0x133>
+ 8e0:	eb 56                	jmp    938 <main+0x12e>
+ 8e2:	48 89 c3             	mov    rbx,rax
+ 8e5:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 8e9:	48 89 c7             	mov    rdi,rax
+ 8ec:	e8 00 00 00 00       	call   8f1 <main+0xe7>
+ 8f1:	eb 03                	jmp    8f6 <main+0xec>
+ 8f3:	48 89 c3             	mov    rbx,rax
+ 8f6:	48 8d 45 a0          	lea    rax,[rbp-0x60]
+ 8fa:	48 89 c7             	mov    rdi,rax
+ 8fd:	e8 00 00 00 00       	call   902 <main+0xf8>
+ 902:	eb 03                	jmp    907 <main+0xfd>
+ 904:	48 89 c3             	mov    rbx,rax
+ 907:	48 8d 45 80          	lea    rax,[rbp-0x80]
+ 90b:	48 89 c7             	mov    rdi,rax
+ 90e:	e8 00 00 00 00       	call   913 <main+0x109>
+ 913:	48 89 d8             	mov    rax,rbx
+ 916:	48 89 c7             	mov    rdi,rax
+ 919:	e8 00 00 00 00       	call   91e <main+0x114>
+ 91e:	48 89 c3             	mov    rbx,rax
+ 921:	48 8d 45 c0          	lea    rax,[rbp-0x40]
+ 925:	48 89 c7             	mov    rdi,rax
+ 928:	e8 00 00 00 00       	call   92d <main+0x123>
+ 92d:	48 89 d8             	mov    rax,rbx
+ 930:	48 89 c7             	mov    rdi,rax
+ 933:	e8 00 00 00 00       	call   938 <main+0x12e>
+ 938:	e8 00 00 00 00       	call   93d <main+0x133>
+ 93d:	48 83 c4 78          	add    rsp,0x78
+ 941:	5b                   	pop    rbx
+ 942:	5d                   	pop    rbp
+ 943:	c3                   	ret    
 
-0000000000000768 <_Z41__static_initialization_and_destruction_0ii>:
- 768:	55                   	push   rbp
- 769:	48 89 e5             	mov    rbp,rsp
- 76c:	48 83 ec 10          	sub    rsp,0x10
- 770:	e8 00 00 00 00       	call   775 <_Z41__static_initialization_and_destruction_0ii+0xd>
- 775:	89 7d fc             	mov    DWORD PTR [rbp-0x4],edi
- 778:	89 75 f8             	mov    DWORD PTR [rbp-0x8],esi
- 77b:	83 7d fc 01          	cmp    DWORD PTR [rbp-0x4],0x1
- 77f:	75 27                	jne    7a8 <_Z41__static_initialization_and_destruction_0ii+0x40>
- 781:	81 7d f8 ff ff 00 00 	cmp    DWORD PTR [rbp-0x8],0xffff
- 788:	75 1e                	jne    7a8 <_Z41__static_initialization_and_destruction_0ii+0x40>
- 78a:	bf 00 00 00 00       	mov    edi,0x0
- 78f:	e8 00 00 00 00       	call   794 <_Z41__static_initialization_and_destruction_0ii+0x2c>
- 794:	ba 00 00 00 00       	mov    edx,0x0
- 799:	be 00 00 00 00       	mov    esi,0x0
- 79e:	bf 00 00 00 00       	mov    edi,0x0
- 7a3:	e8 00 00 00 00       	call   7a8 <_Z41__static_initialization_and_destruction_0ii+0x40>
- 7a8:	90                   	nop
- 7a9:	c9                   	leave  
- 7aa:	c3                   	ret    
+0000000000000944 <_Z41__static_initialization_and_destruction_0ii>:
+ 944:	55                   	push   rbp
+ 945:	48 89 e5             	mov    rbp,rsp
+ 948:	48 83 ec 10          	sub    rsp,0x10
+ 94c:	e8 00 00 00 00       	call   951 <_Z41__static_initialization_and_destruction_0ii+0xd>
+ 951:	89 7d fc             	mov    DWORD PTR [rbp-0x4],edi
+ 954:	89 75 f8             	mov    DWORD PTR [rbp-0x8],esi
+ 957:	83 7d fc 01          	cmp    DWORD PTR [rbp-0x4],0x1
+ 95b:	75 27                	jne    984 <_Z41__static_initialization_and_destruction_0ii+0x40>
+ 95d:	81 7d f8 ff ff 00 00 	cmp    DWORD PTR [rbp-0x8],0xffff
+ 964:	75 1e                	jne    984 <_Z41__static_initialization_and_destruction_0ii+0x40>
+ 966:	bf 00 00 00 00       	mov    edi,0x0
+ 96b:	e8 00 00 00 00       	call   970 <_Z41__static_initialization_and_destruction_0ii+0x2c>
+ 970:	ba 00 00 00 00       	mov    edx,0x0
+ 975:	be 00 00 00 00       	mov    esi,0x0
+ 97a:	bf 00 00 00 00       	mov    edi,0x0
+ 97f:	e8 00 00 00 00       	call   984 <_Z41__static_initialization_and_destruction_0ii+0x40>
+ 984:	90                   	nop
+ 985:	c9                   	leave  
+ 986:	c3                   	ret    
 
-00000000000007ab <_GLOBAL__sub_I__Z9locateDirB5cxx11v>:
- 7ab:	55                   	push   rbp
- 7ac:	48 89 e5             	mov    rbp,rsp
- 7af:	e8 00 00 00 00       	call   7b4 <_GLOBAL__sub_I__Z9locateDirB5cxx11v+0x9>
- 7b4:	be ff ff 00 00       	mov    esi,0xffff
- 7b9:	bf 01 00 00 00       	mov    edi,0x1
- 7be:	e8 a5 ff ff ff       	call   768 <_Z41__static_initialization_and_destruction_0ii>
- 7c3:	5d                   	pop    rbp
- 7c4:	c3                   	ret    
+0000000000000987 <_GLOBAL__sub_I__Z9locateDirB5cxx11v>:
+ 987:	55                   	push   rbp
+ 988:	48 89 e5             	mov    rbp,rsp
+ 98b:	e8 00 00 00 00       	call   990 <_GLOBAL__sub_I__Z9locateDirB5cxx11v+0x9>
+ 990:	be ff ff 00 00       	mov    esi,0xffff
+ 995:	bf 01 00 00 00       	mov    edi,0x1
+ 99a:	e8 a5 ff ff ff       	call   944 <_Z41__static_initialization_and_destruction_0ii>
+ 99f:	5d                   	pop    rbp
+ 9a0:	c3                   	ret    
 
 Disassembly of section .text._ZStorSt13_Ios_OpenmodeS_:
 

@@ -17,6 +17,7 @@ string locateDir() //locates the CRA-Program directory and returns it for use in
         string deleteFile(dirPath); deleteFile.append("/deleteThis.txt"); //full path of deleteThis.txt to allow for call to remove()
         remove(deleteFile.c_str()); //requires a const_ char*, which is returned by c_str()
     }
+    f.close();
     return dirPath;
 }
 
@@ -37,22 +38,29 @@ string objDumpCommand(string fp) //outputs disassembly to a file in the parent d
 
 void findLEA(string path) //asks for a file to be read and outputs memory addresses of LEA commands to terminal
 {
-    cout << "Input a filepath for the file you want to open, starting from the CRA-Program directory:\n" << path << std::flush;
+    cout << "To search for LEA instructions, input a filepath for the -dsmbl.txt file previously created, starting from the CRA-Program directory:\n" << path << std::flush;
     char fp[44]; cin.getline(fp, 44, '\n'); path.append(fp);
     fstream f(path, ios::in | ios::app);
     string instr(64, ' ');
-    //cout << "Full filepath for file to read from is: " << path << endl;
-    //f.is_open() ? cout << "File has been opened." << endl : cout << "File failed to open." << endl;
     int ind;
+    string leaFile(path, 0, path.length()-4); leaFile.append("-LEA.txt"); //stores name of output file to store all LEA instruction output in a file to reference in other functions
+    fstream store(leaFile, ios::out | ios::trunc); //if file already exists, the contents need to be overwritten, hence ios::trunc as the mode for output
+    store.is_open() ? cout << leaFile << " has been created and opened." << endl : cout << leaFile << " has failed to be created and opened." << endl;
+    string line; //temporary string to store each line to be written to file
     while(!f.eof())
     {
         getline(f, instr);
         ind = instr.find("lea",0,3);
         if(ind != (signed)string::npos) //not sure why warning for signed comparison is necessary here but not next line vvvvvv (already converted to unsigned when assigned to int?)
             if(instr.find("leave",0,5) == string::npos)
+            {
                 cout << "Found LEA instruction:     " << instr << endl;
+                line.assign("Found LEA instruction:    "); line.append(instr); //reset line and allow for appending the current instruction
+                store << line.c_str() << endl; // formatted output to fstream store, which writes to $filename-LEA.txt
+            }
     }
     flush(cout);
+    store.close();
     f.close();
 }
 
